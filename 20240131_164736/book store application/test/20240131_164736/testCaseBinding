@@ -1,0 +1,15 @@
+{"testCaseName":"Test Cases/TC1_login invalid","testCaseId":"Test Cases/TC1_login invalid","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC2_Login valid","testCaseId":"Test Cases/TC2_Login valid","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC3_already login","testCaseId":"Test Cases/TC3_already login","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC4_profile","testCaseId":"Test Cases/TC4_profile","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC5_Book added","testCaseId":"Test Cases/TC5_Book added","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC6_Book already","testCaseId":"Test Cases/TC6_Book already","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC7_search from title without login","testCaseId":"Test Cases/TC7_search from title without login","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC8_search from title with login","testCaseId":"Test Cases/TC8_search from title with login","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC9_search from author","testCaseId":"Test Cases/TC9_search from author","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC10_search from publisher","testCaseId":"Test Cases/TC10_search from publisher","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC11_Sorting from author","testCaseId":"Test Cases/TC11_Sorting from author","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC12_more than 1 book","testCaseId":"Test Cases/TC12_more than 1 book","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC13_delete 1 book","testCaseId":"Test Cases/TC13_delete 1 book","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC14_delete all book","testCaseId":"Test Cases/TC14_delete all book","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC15_delete account","testCaseId":"Test Cases/TC15_delete account","iterationVariableName":""}

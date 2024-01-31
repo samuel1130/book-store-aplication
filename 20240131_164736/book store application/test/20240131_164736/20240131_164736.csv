@@ -1,0 +1,192 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test,Chrome 121.0.0.0,,,31-01-2024 16:47:42,31-01-2024 16:51:29,3m - 46.730s,PASSED
+,,,,,,,
+Test Cases/TC1_login invalid,Chrome 121.0.0.0,,,31-01-2024 16:47:42,31-01-2024 16:47:54,11.583s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 16:47:42,31-01-2024 16:47:44,1.543s,PASSED
+"navigateToUrl(""https://demoqa.com/books"")",Chrome 121.0.0.0,,,31-01-2024 16:47:44,31-01-2024 16:47:50,5.819s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,31-01-2024 16:47:50,31-01-2024 16:47:50,0.176s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/login/button_Login""))",Chrome 121.0.0.0,,,31-01-2024 16:47:50,31-01-2024 16:47:50,0.495s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/inputuserName""), ""coba123"")",Chrome 121.0.0.0,,,31-01-2024 16:47:50,31-01-2024 16:47:51,0.824s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_DEMOQA/inputpassword""), ""1TYJgHr4J6rwnYQhNRHexA=="")",Chrome 121.0.0.0,,,31-01-2024 16:47:51,31-01-2024 16:47:52,0.433s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/login/button_Login""))",Chrome 121.0.0.0,,,31-01-2024 16:47:52,31-01-2024 16:47:52,0.325s,PASSED
+"verifyElementPresent(findTestObject(""Page_DEMOQA/login/p_Invalid username or password""), 30)",Chrome 121.0.0.0,,,31-01-2024 16:47:52,31-01-2024 16:47:53,1.075s,PASSED
+takeScreenshot(),Chrome 121.0.0.0,,,31-01-2024 16:47:53,31-01-2024 16:47:54,0.620s,PASSED
+,,,,,,,
+Test Cases/TC2_Login valid,Chrome 121.0.0.0,,,31-01-2024 16:47:54,31-01-2024 16:48:05,11.261s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 16:47:54,31-01-2024 16:47:55,0.835s,PASSED
+"navigateToUrl(""https://demoqa.com/books"")",Chrome 121.0.0.0,,,31-01-2024 16:47:55,31-01-2024 16:48:00,5.176s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,31-01-2024 16:48:00,31-01-2024 16:48:00,0.142s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/login/button_Login""))",Chrome 121.0.0.0,,,31-01-2024 16:48:00,31-01-2024 16:48:00,0.513s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/inputuserName""), ""test123"")",Chrome 121.0.0.0,,,31-01-2024 16:48:00,31-01-2024 16:48:02,1.222s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_DEMOQA/inputpassword""), ""1TYJgHr4J6rwnYQhNRHexA=="")",Chrome 121.0.0.0,,,31-01-2024 16:48:02,31-01-2024 16:48:02,0.398s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/login/button_Login""))",Chrome 121.0.0.0,,,31-01-2024 16:48:02,31-01-2024 16:48:02,0.327s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Log out""))",Chrome 121.0.0.0,,,31-01-2024 16:48:02,31-01-2024 16:48:04,1.713s,PASSED
+takeScreenshot(),Chrome 121.0.0.0,,,31-01-2024 16:48:04,31-01-2024 16:48:05,0.830s,PASSED
+,,,,,,,
+Test Cases/TC3_already login,Chrome 121.0.0.0,,,31-01-2024 16:48:05,31-01-2024 16:48:17,11.791s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 16:48:05,31-01-2024 16:48:06,0.880s,PASSED
+"navigateToUrl(""https://demoqa.com/books"")",Chrome 121.0.0.0,,,31-01-2024 16:48:06,31-01-2024 16:48:12,5.673s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,31-01-2024 16:48:12,31-01-2024 16:48:12,0.131s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/login/button_Login""))",Chrome 121.0.0.0,,,31-01-2024 16:48:12,31-01-2024 16:48:12,0.522s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/inputuserName""), ""test123"")",Chrome 121.0.0.0,,,31-01-2024 16:48:12,31-01-2024 16:48:13,0.901s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_DEMOQA/inputpassword""), ""1TYJgHr4J6rwnYQhNRHexA=="")",Chrome 121.0.0.0,,,31-01-2024 16:48:13,31-01-2024 16:48:14,0.499s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/login/button_Login""))",Chrome 121.0.0.0,,,31-01-2024 16:48:14,31-01-2024 16:48:14,0.327s,PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/login/li_Login""), 1)",Chrome 121.0.0.0,,,31-01-2024 16:48:14,31-01-2024 16:48:16,1.610s,PASSED
+"click(findTestObject(""Page_DEMOQA/login/li_Login""))",Chrome 121.0.0.0,,,31-01-2024 16:48:16,31-01-2024 16:48:16,0.356s,PASSED
+takeScreenshot(),Chrome 121.0.0.0,,,31-01-2024 16:48:16,31-01-2024 16:48:17,0.808s,PASSED
+,,,,,,,
+Test Cases/TC4_profile,Chrome 121.0.0.0,,,31-01-2024 16:48:17,31-01-2024 16:48:28,11.782s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 16:48:17,31-01-2024 16:48:18,0.804s,PASSED
+"navigateToUrl(""https://demoqa.com/books"")",Chrome 121.0.0.0,,,31-01-2024 16:48:18,31-01-2024 16:48:23,5.276s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,31-01-2024 16:48:23,31-01-2024 16:48:23,0.130s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/login/button_Login""))",Chrome 121.0.0.0,,,31-01-2024 16:48:23,31-01-2024 16:48:23,0.479s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/inputuserName""), ""test123"")",Chrome 121.0.0.0,,,31-01-2024 16:48:23,31-01-2024 16:48:25,1.032s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_DEMOQA/inputpassword""), ""1TYJgHr4J6rwnYQhNRHexA=="")",Chrome 121.0.0.0,,,31-01-2024 16:48:25,31-01-2024 16:48:25,0.609s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/login/button_Login""))",Chrome 121.0.0.0,,,31-01-2024 16:48:25,31-01-2024 16:48:25,0.329s,PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/profile/li_Profile""), 1)",Chrome 121.0.0.0,,,31-01-2024 16:48:25,31-01-2024 16:48:27,1.625s,PASSED
+"click(findTestObject(""Page_DEMOQA/profile/li_Profile""))",Chrome 121.0.0.0,,,31-01-2024 16:48:27,31-01-2024 16:48:27,0.341s,PASSED
+takeScreenshot(),Chrome 121.0.0.0,,,31-01-2024 16:48:27,31-01-2024 16:48:28,1.047s,PASSED
+,,,,,,,
+Test Cases/TC5_Book added,Chrome 121.0.0.0,,,31-01-2024 16:48:28,31-01-2024 16:48:43,15.033s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 16:48:29,31-01-2024 16:48:30,0.988s,PASSED
+"navigateToUrl(""https://demoqa.com/books"")",Chrome 121.0.0.0,,,31-01-2024 16:48:30,31-01-2024 16:48:36,6.562s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,31-01-2024 16:48:36,31-01-2024 16:48:36,0.127s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/login/button_Login""))",Chrome 121.0.0.0,,,31-01-2024 16:48:36,31-01-2024 16:48:37,0.505s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/inputuserName""), ""test123"")",Chrome 121.0.0.0,,,31-01-2024 16:48:37,31-01-2024 16:48:38,1.210s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_DEMOQA/inputpassword""), ""1TYJgHr4J6rwnYQhNRHexA=="")",Chrome 121.0.0.0,,,31-01-2024 16:48:38,31-01-2024 16:48:38,0.383s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/login/button_Login""))",Chrome 121.0.0.0,,,31-01-2024 16:48:38,31-01-2024 16:48:39,0.322s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/book/a_Git Pocket Guide""))",Chrome 121.0.0.0,,,31-01-2024 16:48:39,31-01-2024 16:48:41,2.772s,PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/book/button_Add To Your Collection""), 1)",Chrome 121.0.0.0,,,31-01-2024 16:48:41,31-01-2024 16:48:42,1.051s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/book/button_Add To Your Collection""))",Chrome 121.0.0.0,,,31-01-2024 16:48:42,31-01-2024 16:48:43,0.335s,PASSED
+takeScreenshot(),Chrome 121.0.0.0,,,31-01-2024 16:48:43,31-01-2024 16:48:43,0.690s,PASSED
+,,,,,,,
+Test Cases/TC6_Book already,Chrome 121.0.0.0,,,31-01-2024 16:48:44,31-01-2024 16:48:59,15.912s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 16:48:44,31-01-2024 16:48:44,0.868s,PASSED
+"navigateToUrl(""https://demoqa.com/books"")",Chrome 121.0.0.0,,,31-01-2024 16:48:44,31-01-2024 16:48:50,5.184s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,31-01-2024 16:48:50,31-01-2024 16:48:50,0.138s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/login/button_Login""))",Chrome 121.0.0.0,,,31-01-2024 16:48:50,31-01-2024 16:48:50,0.518s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/inputuserName""), ""test123"")",Chrome 121.0.0.0,,,31-01-2024 16:48:50,31-01-2024 16:48:52,1.324s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_DEMOQA/inputpassword""), ""1TYJgHr4J6rwnYQhNRHexA=="")",Chrome 121.0.0.0,,,31-01-2024 16:48:52,31-01-2024 16:48:52,0.381s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/login/button_Login""))",Chrome 121.0.0.0,,,31-01-2024 16:48:52,31-01-2024 16:48:52,0.328s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/book/a_Git Pocket Guide""))",Chrome 121.0.0.0,,,31-01-2024 16:48:52,31-01-2024 16:48:57,4.915s,PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/book/button_Add To Your Collection""), 1)",Chrome 121.0.0.0,,,31-01-2024 16:48:57,31-01-2024 16:48:58,0.528s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/book/button_Add To Your Collection""))",Chrome 121.0.0.0,,,31-01-2024 16:48:58,31-01-2024 16:48:59,0.770s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/book/button_Add To Your Collection""))",Chrome 121.0.0.0,,,31-01-2024 16:48:59,31-01-2024 16:48:59,0.321s,PASSED
+takeScreenshot(),Chrome 121.0.0.0,,,31-01-2024 16:48:59,31-01-2024 16:48:59,0.520s,PASSED
+,,,,,,,
+Test Cases/TC7_search from title without login,Chrome 121.0.0.0,,,31-01-2024 16:48:59,31-01-2024 16:49:11,11.285s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 16:48:59,31-01-2024 16:49:00,0.813s,PASSED
+"navigateToUrl(""https://demoqa.com/books"")",Chrome 121.0.0.0,,,31-01-2024 16:49:00,31-01-2024 16:49:06,5.710s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/inputsearchBox""), ""programming"")",Chrome 121.0.0.0,,,31-01-2024 16:49:06,31-01-2024 16:49:08,1.526s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/book/a_Programming JavaScript Applications""))",Chrome 121.0.0.0,,,31-01-2024 16:49:08,31-01-2024 16:49:09,1.290s,PASSED
+takeScreenshot(),Chrome 121.0.0.0,,,31-01-2024 16:49:09,31-01-2024 16:49:11,1.869s,PASSED
+,,,,,,,
+Test Cases/TC8_search from title with login,Chrome 121.0.0.0,,,31-01-2024 16:49:11,31-01-2024 16:49:25,14.126s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 16:49:11,31-01-2024 16:49:12,0.803s,PASSED
+"navigateToUrl(""https://demoqa.com/books"")",Chrome 121.0.0.0,,,31-01-2024 16:49:12,31-01-2024 16:49:18,5.950s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,31-01-2024 16:49:18,31-01-2024 16:49:18,0.134s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/login/button_Login""))",Chrome 121.0.0.0,,,31-01-2024 16:49:18,31-01-2024 16:49:18,0.527s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/inputuserName""), ""test123"")",Chrome 121.0.0.0,,,31-01-2024 16:49:18,31-01-2024 16:49:19,0.777s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_DEMOQA/inputpassword""), ""1TYJgHr4J6rwnYQhNRHexA=="")",Chrome 121.0.0.0,,,31-01-2024 16:49:19,31-01-2024 16:49:20,0.609s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/login/button_Login""))",Chrome 121.0.0.0,,,31-01-2024 16:49:20,31-01-2024 16:49:20,0.317s,PASSED
+"setText(findTestObject(""Page_DEMOQA/inputsearchBox""), ""program"")",Chrome 121.0.0.0,,,31-01-2024 16:49:20,31-01-2024 16:49:22,2.023s,PASSED
+"click(findTestObject(""Page_DEMOQA/book/a_Programming JavaScript Applications""))",Chrome 121.0.0.0,,,31-01-2024 16:49:22,31-01-2024 16:49:23,1.331s,PASSED
+takeScreenshot(),Chrome 121.0.0.0,,,31-01-2024 16:49:23,31-01-2024 16:49:25,1.570s,PASSED
+,,,,,,,
+Test Cases/TC9_search from author,Chrome 121.0.0.0,,,31-01-2024 16:49:25,31-01-2024 16:49:41,16.446s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 16:49:25,31-01-2024 16:49:26,0.883s,PASSED
+"navigateToUrl(""https://demoqa.com/books"")",Chrome 121.0.0.0,,,31-01-2024 16:49:26,31-01-2024 16:49:33,7.522s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,31-01-2024 16:49:33,31-01-2024 16:49:33,0.121s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/login/button_Login""))",Chrome 121.0.0.0,,,31-01-2024 16:49:33,31-01-2024 16:49:34,0.610s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/inputuserName""), ""test123"")",Chrome 121.0.0.0,,,31-01-2024 16:49:34,31-01-2024 16:49:35,0.770s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_DEMOQA/inputpassword""), ""1TYJgHr4J6rwnYQhNRHexA=="")",Chrome 121.0.0.0,,,31-01-2024 16:49:35,31-01-2024 16:49:36,0.817s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/login/button_Login""))",Chrome 121.0.0.0,,,31-01-2024 16:49:36,31-01-2024 16:49:36,0.317s,PASSED
+"setText(findTestObject(""Page_DEMOQA/inputsearchBox""), ""eric"")",Chrome 121.0.0.0,,,31-01-2024 16:49:36,31-01-2024 16:49:38,1.953s,PASSED
+"click(findTestObject(""Page_DEMOQA/book/a_Programming JavaScript Applications""))",Chrome 121.0.0.0,,,31-01-2024 16:49:38,31-01-2024 16:49:40,1.579s,PASSED
+takeScreenshot(),Chrome 121.0.0.0,,,31-01-2024 16:49:40,31-01-2024 16:49:41,1.756s,PASSED
+,,,,,,,
+Test Cases/TC10_search from publisher,Chrome 121.0.0.0,,,31-01-2024 16:49:41,31-01-2024 16:49:55,14.001s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 16:49:41,31-01-2024 16:49:42,0.814s,PASSED
+"navigateToUrl(""https://demoqa.com/books"")",Chrome 121.0.0.0,,,31-01-2024 16:49:42,31-01-2024 16:49:48,5.729s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,31-01-2024 16:49:48,31-01-2024 16:49:48,0.130s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/login/button_Login""))",Chrome 121.0.0.0,,,31-01-2024 16:49:48,31-01-2024 16:49:49,0.494s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/inputuserName""), ""test123"")",Chrome 121.0.0.0,,,31-01-2024 16:49:49,31-01-2024 16:49:50,1.103s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_DEMOQA/inputpassword""), ""1TYJgHr4J6rwnYQhNRHexA=="")",Chrome 121.0.0.0,,,31-01-2024 16:49:50,31-01-2024 16:49:50,0.391s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/login/button_Login""))",Chrome 121.0.0.0,,,31-01-2024 16:49:50,31-01-2024 16:49:50,0.318s,PASSED
+"setText(findTestObject(""Page_DEMOQA/inputsearchBox""), ""press"")",Chrome 121.0.0.0,,,31-01-2024 16:49:50,31-01-2024 16:49:52,1.980s,PASSED
+"click(findTestObject(""Page_DEMOQA/book/a_Eloquent JavaScript, Second Edition""))",Chrome 121.0.0.0,,,31-01-2024 16:49:52,31-01-2024 16:49:54,1.574s,PASSED
+takeScreenshot(),Chrome 121.0.0.0,,,31-01-2024 16:49:54,31-01-2024 16:49:55,1.382s,PASSED
+,,,,,,,
+Test Cases/TC11_Sorting from author,Chrome 121.0.0.0,,,31-01-2024 16:49:55,31-01-2024 16:50:07,11.552s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 16:49:55,31-01-2024 16:49:56,0.817s,PASSED
+"navigateToUrl(""https://demoqa.com/books"")",Chrome 121.0.0.0,,,31-01-2024 16:49:56,31-01-2024 16:50:02,5.551s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,31-01-2024 16:50:02,31-01-2024 16:50:02,0.124s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/login/button_Login""))",Chrome 121.0.0.0,,,31-01-2024 16:50:02,31-01-2024 16:50:02,0.505s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/inputuserName""), ""test123"")",Chrome 121.0.0.0,,,31-01-2024 16:50:02,31-01-2024 16:50:04,1.316s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_DEMOQA/inputpassword""), ""1TYJgHr4J6rwnYQhNRHexA=="")",Chrome 121.0.0.0,,,31-01-2024 16:50:04,31-01-2024 16:50:04,0.385s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/login/button_Login""))",Chrome 121.0.0.0,,,31-01-2024 16:50:04,31-01-2024 16:50:04,0.319s,PASSED
+"click(findTestObject(""Page_DEMOQA/div_Author""))",Chrome 121.0.0.0,,,31-01-2024 16:50:04,31-01-2024 16:50:06,1.637s,PASSED
+takeScreenshot(),Chrome 121.0.0.0,,,31-01-2024 16:50:06,31-01-2024 16:50:07,0.812s,PASSED
+,,,,,,,
+Test Cases/TC12_more than 1 book,Chrome 121.0.0.0,,,31-01-2024 16:50:07,31-01-2024 16:50:52,44.804s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 16:50:07,31-01-2024 16:50:08,0.833s,PASSED
+"navigateToUrl(""https://demoqa.com/books"")",Chrome 121.0.0.0,,,31-01-2024 16:50:08,31-01-2024 16:50:37,29.268s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,31-01-2024 16:50:37,31-01-2024 16:50:37,0.135s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/login/button_Login""))",Chrome 121.0.0.0,,,31-01-2024 16:50:37,31-01-2024 16:50:38,0.497s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/inputuserName""), ""test123"")",Chrome 121.0.0.0,,,31-01-2024 16:50:38,31-01-2024 16:50:39,1.199s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_DEMOQA/inputpassword""), ""1TYJgHr4J6rwnYQhNRHexA=="")",Chrome 121.0.0.0,,,31-01-2024 16:50:39,31-01-2024 16:50:39,0.377s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/login/button_Login""))",Chrome 121.0.0.0,,,31-01-2024 16:50:39,31-01-2024 16:50:40,0.323s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/book/a_Git Pocket Guide""))",Chrome 121.0.0.0,,,31-01-2024 16:50:40,31-01-2024 16:50:42,2.516s,PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/book/button_Add To Your Collection""), 1)",Chrome 121.0.0.0,,,31-01-2024 16:50:42,31-01-2024 16:50:44,1.646s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/book/button_Add To Your Collection""))",Chrome 121.0.0.0,,,31-01-2024 16:50:44,31-01-2024 16:50:44,0.327s,PASSED
+"click(findTestObject(""Page_DEMOQA/book/button_Back To Book Store""))",Chrome 121.0.0.0,,,31-01-2024 16:50:44,31-01-2024 16:50:44,0.429s,PASSED
+"click(findTestObject(""Page_DEMOQA/book/a_Learning JavaScript Design Patterns""))",Chrome 121.0.0.0,,,31-01-2024 16:50:44,31-01-2024 16:50:46,1.205s,PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/book/button_Add To Your Collection""), 1)",Chrome 121.0.0.0,,,31-01-2024 16:50:46,31-01-2024 16:50:47,1.189s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/book/button_Add To Your Collection""))",Chrome 121.0.0.0,,,31-01-2024 16:50:47,31-01-2024 16:50:48,0.644s,PASSED
+"click(findTestObject(""Page_DEMOQA/book/button_Back To Book Store""))",Chrome 121.0.0.0,,,31-01-2024 16:50:48,31-01-2024 16:50:48,0.482s,PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/book/a_Designing Evolvable Web APIs with ASP.NET""), 1)",Chrome 121.0.0.0,,,31-01-2024 16:50:48,31-01-2024 16:50:48,0.309s,PASSED
+"click(findTestObject(""Page_DEMOQA/book/a_Designing Evolvable Web APIs with ASP.NET""))",Chrome 121.0.0.0,,,31-01-2024 16:50:48,31-01-2024 16:50:49,1.052s,PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/book/button_Add To Your Collection""), 1)",Chrome 121.0.0.0,,,31-01-2024 16:50:49,31-01-2024 16:50:51,1.245s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/book/button_Add To Your Collection""))",Chrome 121.0.0.0,,,31-01-2024 16:50:51,31-01-2024 16:50:51,0.321s,PASSED
+"click(findTestObject(""Page_DEMOQA/book/button_Back To Book Store""))",Chrome 121.0.0.0,,,31-01-2024 16:50:51,31-01-2024 16:50:52,0.701s,PASSED
+,,,,,,,
+Test Cases/TC13_delete 1 book,Chrome 121.0.0.0,,,31-01-2024 16:50:52,31-01-2024 16:51:04,12.273s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 16:50:52,31-01-2024 16:50:53,0.802s,PASSED
+"navigateToUrl(""https://demoqa.com/books"")",Chrome 121.0.0.0,,,31-01-2024 16:50:53,31-01-2024 16:50:58,5.403s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,31-01-2024 16:50:58,31-01-2024 16:50:58,0.138s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/login/button_Login""))",Chrome 121.0.0.0,,,31-01-2024 16:50:58,31-01-2024 16:50:59,0.503s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/inputuserName""), ""test123"")",Chrome 121.0.0.0,,,31-01-2024 16:50:59,31-01-2024 16:51:00,1.316s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_DEMOQA/inputpassword""), ""1TYJgHr4J6rwnYQhNRHexA=="")",Chrome 121.0.0.0,,,31-01-2024 16:51:00,31-01-2024 16:51:00,0.379s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/login/button_Login""))",Chrome 121.0.0.0,,,31-01-2024 16:51:00,31-01-2024 16:51:01,0.316s,PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/profile/li_Profile""), 1)",Chrome 121.0.0.0,,,31-01-2024 16:51:01,31-01-2024 16:51:02,1.597s,PASSED
+"click(findTestObject(""Page_DEMOQA/profile/li_Profile""))",Chrome 121.0.0.0,,,31-01-2024 16:51:02,31-01-2024 16:51:03,0.358s,PASSED
+"click(findTestObject(""Page_DEMOQA/delet""))",Chrome 121.0.0.0,,,31-01-2024 16:51:03,31-01-2024 16:51:03,0.918s,PASSED
+"click(findTestObject(""button_OK""))",Chrome 121.0.0.0,,,31-01-2024 16:51:03,31-01-2024 16:51:04,0.476s,PASSED
+,,,,,,,
+Test Cases/TC14_delete all book,Chrome 121.0.0.0,,,31-01-2024 16:51:04,31-01-2024 16:51:16,12.082s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 16:51:04,31-01-2024 16:51:05,0.883s,PASSED
+"navigateToUrl(""https://demoqa.com/books"")",Chrome 121.0.0.0,,,31-01-2024 16:51:05,31-01-2024 16:51:10,5.205s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,31-01-2024 16:51:10,31-01-2024 16:51:10,0.185s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/login/button_Login""))",Chrome 121.0.0.0,,,31-01-2024 16:51:10,31-01-2024 16:51:11,0.498s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/inputuserName""), ""test123"")",Chrome 121.0.0.0,,,31-01-2024 16:51:11,31-01-2024 16:51:12,1.091s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_DEMOQA/inputpassword""), ""1TYJgHr4J6rwnYQhNRHexA=="")",Chrome 121.0.0.0,,,31-01-2024 16:51:12,31-01-2024 16:51:12,0.376s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/login/button_Login""))",Chrome 121.0.0.0,,,31-01-2024 16:51:12,31-01-2024 16:51:13,0.319s,PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/profile/li_Profile""), 1)",Chrome 121.0.0.0,,,31-01-2024 16:51:13,31-01-2024 16:51:14,1.496s,PASSED
+"click(findTestObject(""Page_DEMOQA/profile/li_Profile""))",Chrome 121.0.0.0,,,31-01-2024 16:51:14,31-01-2024 16:51:14,0.339s,PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_Delete All Books""), 1)",Chrome 121.0.0.0,,,31-01-2024 16:51:14,31-01-2024 16:51:15,0.752s,PASSED
+"click(findTestObject(""Page_DEMOQA/button_Delete All Books""))",Chrome 121.0.0.0,,,31-01-2024 16:51:15,31-01-2024 16:51:16,0.350s,PASSED
+"click(findTestObject(""Page_DEMOQA/button_OK""))",Chrome 121.0.0.0,,,31-01-2024 16:51:16,31-01-2024 16:51:16,0.488s,PASSED
+,,,,,,,
+Test Cases/TC15_delete account,Chrome 121.0.0.0,,,31-01-2024 16:51:16,31-01-2024 16:51:29,12.570s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 16:51:16,31-01-2024 16:51:17,0.810s,PASSED
+"navigateToUrl(""https://demoqa.com/books"")",Chrome 121.0.0.0,,,31-01-2024 16:51:17,31-01-2024 16:51:22,5.550s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,31-01-2024 16:51:22,31-01-2024 16:51:23,0.128s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/login/button_Login""))",Chrome 121.0.0.0,,,31-01-2024 16:51:23,31-01-2024 16:51:23,0.523s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/inputuserName""), ""test123"")",Chrome 121.0.0.0,,,31-01-2024 16:51:23,31-01-2024 16:51:24,0.881s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_DEMOQA/inputpassword""), ""1TYJgHr4J6rwnYQhNRHexA=="")",Chrome 121.0.0.0,,,31-01-2024 16:51:24,31-01-2024 16:51:25,0.599s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/login/button_Login""))",Chrome 121.0.0.0,,,31-01-2024 16:51:25,31-01-2024 16:51:25,0.338s,PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/profile/li_Profile""), 1)",Chrome 121.0.0.0,,,31-01-2024 16:51:25,31-01-2024 16:51:27,1.710s,PASSED
+"click(findTestObject(""Page_DEMOQA/profile/li_Profile""))",Chrome 121.0.0.0,,,31-01-2024 16:51:27,31-01-2024 16:51:27,0.346s,PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/button_Delete Account""), 1)",Chrome 121.0.0.0,,,31-01-2024 16:51:27,31-01-2024 16:51:28,0.753s,PASSED
+"click(findTestObject(""Page_DEMOQA/button_Delete Account""))",Chrome 121.0.0.0,,,31-01-2024 16:51:28,31-01-2024 16:51:28,0.349s,PASSED
+"click(findTestObject(""Page_DEMOQA/button_OK""))",Chrome 121.0.0.0,,,31-01-2024 16:51:28,31-01-2024 16:51:29,0.467s,PASSED
