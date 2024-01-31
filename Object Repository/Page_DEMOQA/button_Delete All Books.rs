@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Delete All Books</name>
+   <tag></tag>
+   <elementGuidId>bc3c80bc-263a-4dbe-9c41-a523af9bbe90</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.text-right.button.di > #submit</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@id='submit'])[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a17b82be-ef6a-45fb-981f-163fa9da2a00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>2dbe24ed-6d42-41ec-8120-4922d6d5cd7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>13440051-6219-49da-8cd2-8db5de112fa4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary</value>
+      <webElementGuid>1e795c87-367c-404f-b8d2-19ebe578652b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Delete All Books</value>
+      <webElementGuid>b79f6260-f2d1-4d9c-8c18-0ba92660c3ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;body-height&quot;]/div[@class=&quot;container playgound-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 mt-4 col-md-6&quot;]/div[@class=&quot;profile-wrapper&quot;]/div[@class=&quot;mt-2 buttonWrap row&quot;]/div[@class=&quot;text-right button di&quot;]/button[@id=&quot;submit&quot;]</value>
+      <webElementGuid>f4109208-53c4-4e3f-8a29-952323c0d05e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@id='submit'])[3]</value>
+      <webElementGuid>a155a9b9-1625-4c2d-ae98-dc11ed8c23b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div[2]/div[2]/div[2]/div[3]/div[3]/button</value>
+      <webElementGuid>89ac3899-8833-4616-8e5a-cf194c0d2fed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[3]/button</value>
+      <webElementGuid>ea9dc04f-475a-44c8-9d1b-7ccf51ee88e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'submit' and @type = 'button' and (text() = 'Delete All Books' or . = 'Delete All Books')]</value>
+      <webElementGuid>942f833c-92c5-4951-9206-0143bba866a1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

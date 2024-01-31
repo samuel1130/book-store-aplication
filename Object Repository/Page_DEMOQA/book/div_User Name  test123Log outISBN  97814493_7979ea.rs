@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_User Name  test123Log outISBN  97814493_7979ea</name>
+   <tag></tag>
+   <elementGuidId>cc66aee9-2743-46a9-92bd-1a67e0b35c45</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-12.mt-4.col-md-6</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div[2]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1f6463ae-f4a8-4442-8407-0bf66398d97d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-12 mt-4 col-md-6</value>
+      <webElementGuid>d1a01ef7-45f8-44d9-a252-941a915244a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>User Name : test123Log outISBN : 9781449325862Title : Git Pocket GuideSub Title : A Working IntroductionAuthor : Richard E. SilvermanPublisher : O'Reilly MediaTotal Pages : 234Description : This pocket guide is the perfect on-the-job companion to Git, the distributed version control system. It provides a compact, readable introduction to Git for new users, as well as a reference to common commands and procedures for those of you with Git expWebsite : http://chimera.labs.oreilly.com/books/1230000000561/index.htmlBack To Book StoreAdd To Your Collection</value>
+      <webElementGuid>fc20731e-5303-448f-9fb5-6142826b3b51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;body-height&quot;]/div[@class=&quot;container playgound-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 mt-4 col-md-6&quot;]</value>
+      <webElementGuid>23daee47-56a9-4f44-ac47-2f228da05423</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div[2]/div[2]</value>
+      <webElementGuid>4a989a08-dca5-4112-b267-6332a022d5b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]</value>
+      <webElementGuid>50d9bc52-ae6f-461c-9728-1efa15b1da33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot;User Name : test123Log outISBN : 9781449325862Title : Git Pocket GuideSub Title : A Working IntroductionAuthor : Richard E. SilvermanPublisher : O&quot; , &quot;'&quot; , &quot;Reilly MediaTotal Pages : 234Description : This pocket guide is the perfect on-the-job companion to Git, the distributed version control system. It provides a compact, readable introduction to Git for new users, as well as a reference to common commands and procedures for those of you with Git expWebsite : http://chimera.labs.oreilly.com/books/1230000000561/index.htmlBack To Book StoreAdd To Your Collection&quot;) or . = concat(&quot;User Name : test123Log outISBN : 9781449325862Title : Git Pocket GuideSub Title : A Working IntroductionAuthor : Richard E. SilvermanPublisher : O&quot; , &quot;'&quot; , &quot;Reilly MediaTotal Pages : 234Description : This pocket guide is the perfect on-the-job companion to Git, the distributed version control system. It provides a compact, readable introduction to Git for new users, as well as a reference to common commands and procedures for those of you with Git expWebsite : http://chimera.labs.oreilly.com/books/1230000000561/index.htmlBack To Book StoreAdd To Your Collection&quot;))]</value>
+      <webElementGuid>43afe184-fa6d-42f0-9471-1f8cdf2477ba</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

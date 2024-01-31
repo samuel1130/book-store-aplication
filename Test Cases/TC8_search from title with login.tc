@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC8_search from title with login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cb1abcd0-3ee3-4634-b4df-c5d9d0fd1107</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC7_search from title without login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e8fadccb-e232-498d-bbba-0678e4324ae2</testCaseGuid>
+</TestCaseEntity>
